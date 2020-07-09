@@ -1,6 +1,6 @@
 ---
-anchor: "Services"
-header: "Services"
+anchor: "About Us"
+header: "About Us"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 services: [
   {
