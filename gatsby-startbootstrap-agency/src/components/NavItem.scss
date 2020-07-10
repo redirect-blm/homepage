@@ -7,7 +7,7 @@
   @include heading-font;
   &.active,
   &:hover {
-    color: $primary !important;
+    color: $dark-gray !important;
   }
 }
 @media (min-width: 992px) {
