@@ -1,6 +1,6 @@
 ---
-anchor: "Demo"
-header: "Demo"
+anchor: "About Us"
+header: "What Is Redire₵t? Our Story"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 timeline: [
   {
