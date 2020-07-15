@@ -46,7 +46,7 @@ export const query = graphql`
           jumpToAnchor
           jumpToAnchorText
           menuText
-        
+
           privacyHref
           privacyText
           services {
@@ -61,6 +61,19 @@ export const query = graphql`
             linkedin
             medium
             twitter
+          }
+          subheader
+          demoContent {
+            header
+            imageFileName
+            social {
+              facebook
+              github
+              linkedin
+              medium
+              twitter
+            } 
+            subheader
           }
           subheader
           teamMember {

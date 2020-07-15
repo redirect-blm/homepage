@@ -38,8 +38,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       social: Social
       services: [Service]
       teamMember: [TeamMember]
+      demoContent: [DemoContent]
     }`,
     `type TeamMember {
+      social: Social
+    }`,
+    `type DemoContent {
       social: Social
     }`,
     `type Service {
