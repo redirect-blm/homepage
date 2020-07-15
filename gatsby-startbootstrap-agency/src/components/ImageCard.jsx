@@ -3,13 +3,26 @@ import PropTypes from "prop-types";
 import clsx from "clsx";
 
 import { Container, Card } from "react-bootstrap";
-import Image from "components/Image";
+// import Image from "components/Image";
 import "./ImageCard.scss";
 
-const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
+
+// Add a background image to the headline by uncommenting: 
+  // import Image 
+  // the parameters in the ImageCard function
+  // the image tag (remember to remove the {} around the image tag as these just allow for comments in jsx) 
+  // ImageCard.proptypes corresponding to the parameters
+  // ImageCard.defaultProps correspoinding to the parameters 
+// Add your desired background image to assets/images
+// Go to content/sections/Top.en.md to add the image's name to imageFileName 
+
+
+const ImageCard = ({ className, header, subheader, extraInfo/* , imageFileName, imageAlt */ }) => {
   return (
     <Card className={clsx("image-card bg-dark text-white text-center", className)}>
-      <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader} />
+      {
+      // <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader} />
+      }
       <Card.ImgOverlay className="no-padding">
         <Container>
           <div className="intro-text">
@@ -25,8 +38,8 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extr
 
 ImageCard.propTypes = {
   className: PropTypes.string,
-  imageFileName: PropTypes.string,
-  imageAlt: PropTypes.string,
+  // imageFileName: PropTypes.string,
+  // imageAlt: PropTypes.string,
   header: PropTypes.string,
   subheader: PropTypes.string,
   extraInfo: PropTypes.any,
@@ -34,8 +47,8 @@ ImageCard.propTypes = {
 
 ImageCard.defaultProps = {
   className: null,
-  imageFileName: null,
-  imageAlt: null,
+  // imageFileName: null,
+  // imageAlt: null,
   header: "",
   subheader: "",
   extraInfo: null,
