@@ -7,13 +7,14 @@ import { Container, Card } from "react-bootstrap";
 import "./ImageCard.scss";
 
 
-// Add a background image to the hero box by uncommenting: 
+// Add a background image to the headline by uncommenting: 
   // import Image 
   // the parameters in the ImageCard function
   // the image tag (remember to remove the {} around the image tag as these just allow for comments in jsx) 
   // ImageCard.proptypes corresponding to the parameters
   // ImageCard.defaultProps correspoinding to the parameters 
 // Add your desired background image to assets/images
+// Go to content/sections/Top.en.md to add the image's name to imageFileName 
 
 
 const ImageCard = ({ className, header, subheader, extraInfo/* , imageFileName, imageAlt */ }) => {
