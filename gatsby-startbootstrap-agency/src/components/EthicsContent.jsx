@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import Image from "components/Image";
 import * as SocialIcons from "components/SocialIcons";
 
-import "./TeamMember.scss";
+import "./EthicsContent.scss";
 
-const TeamMember = ({
+const EthicsContent = ({
   imageFileName,
   imageAlt,
   header,
@@ -39,7 +39,7 @@ const TeamMember = ({
   );
 };
 
-TeamMember.propTypes = {
+EthicsContent.propTypes = {
   imageFileName: PropTypes.string.isRequired,
   imageAlt: PropTypes.string,
   header: PropTypes.string,
@@ -53,7 +53,7 @@ TeamMember.propTypes = {
   }),
 };
 
-TeamMember.defaultProps = {
+EthicsContent.defaultProps = {
   imageAlt: null,
   header: "",
   subheader: "",
@@ -66,4 +66,4 @@ TeamMember.defaultProps = {
   },
 };
 
-export default TeamMember;
+export default EthicsContent;
