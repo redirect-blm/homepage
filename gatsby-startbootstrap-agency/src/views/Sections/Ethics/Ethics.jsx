@@ -22,7 +22,7 @@ const Ethics = ({ className, frontmatter }) => {
 
   return (
     <PageSection className={className} id={anchor}>
-      <Row>
+      {/* <Row>
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
       <Row>
@@ -36,7 +36,7 @@ const Ethics = ({ className, frontmatter }) => {
         <Col lg={8} className="mx-auto text-center">
           <p className="large text-muted">{rootContent}</p>
         </Col>
-      </Row>
+      </Row> */}
     </PageSection>
   );
 };
