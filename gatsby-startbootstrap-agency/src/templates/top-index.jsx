@@ -46,14 +46,7 @@ export const query = graphql`
           jumpToAnchor
           jumpToAnchorText
           menuText
-          portfolios {
-            content
-            extraInfo
-            header
-            subheader
-            imageFileNameDetail
-            imageFileName
-          }
+
           privacyHref
           privacyText
           services {
@@ -70,7 +63,20 @@ export const query = graphql`
             twitter
           }
           subheader
-          teamMember {
+          demoContent {
+            header
+            imageFileName
+            social {
+              facebook
+              github
+              linkedin
+              medium
+              twitter
+            } 
+            subheader
+          }
+          subheader
+          ethicsContent {
             header
             imageFileName
             social {

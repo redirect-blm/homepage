@@ -37,9 +37,13 @@ exports.createSchemaCustomization = ({ actions }) => {
       jumpToAnchorText: String
       social: Social
       services: [Service]
-      teamMember: [TeamMember]
+      ethicsContent: [EthicsContent]
+      demoContent: [DemoContent]
     }`,
-    `type TeamMember {
+    `type EthicsContent {
+      social: Social
+    }`,
+    `type DemoContent {
       social: Social
     }`,
     `type Service {

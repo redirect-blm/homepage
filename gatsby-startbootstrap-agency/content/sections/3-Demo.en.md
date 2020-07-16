@@ -1,9 +1,9 @@
 ---
-anchor: "Ethics"
-header: "Business Ethics"
+anchor: "Demo"
+header: "Demo"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-teamMember: [
+demoContent: [
   {
     imageFileName: "team/1.jpg",
     header: "Kay Garland",
