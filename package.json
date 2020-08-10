@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "0.0.1",
+  "description": "redirect landing page",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redirect-blm/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redirect-blm/homepage/issues"
+  },
+  "homepage": "https://github.com/redirect-blm/homepage#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1"
+  }
+}
