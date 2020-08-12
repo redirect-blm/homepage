@@ -1,0 +1,58 @@
+/* Import Lato from Google Fonts for body  */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Import Questrial from Google Fonts for logo - applied also to all script-font */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+:root {  
+/* Redirect Color Scheme */
+--primary: #2ECA7F;
+--dark-gray: #555555;
+}
+
+.logo-text {
+  font-family: "Questrial","Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+nav {
+  background-color: var(--primary);
+}
+
+body {
+  position: relative;
+  font-family: "Lato","Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  background-color: var(--dark-gray);
+}
+
+header, section{
+  background-color: lightgrey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer {
+  background-color: var(--primary);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* Media Queries - need to solve the hamburger menu covering headings*/
+/* @media(max-width: 992px){
+  section {
+    padding-top: 200px;
+  }
+} */
