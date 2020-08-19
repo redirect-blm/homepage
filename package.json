@@ -4,8 +4,8 @@
   "description": "redirect landing page",
   "main": "index.js",
   "scripts": {
-    "start-dev": "nodemon server.js",
-    "start": "node server.js",
+    "start-dev": "nodemon index.js",
+    "start": "node index.js",
     "build": "npm i"
   },
   "repository": {
