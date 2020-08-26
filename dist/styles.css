@@ -36,6 +36,14 @@ header, section{
   padding-bottom: 50px;
 }
 
+.h1-p {
+  margin-bottom: 40px;
+}
+
+.header-img {
+  height: 500px;
+}
+
 button {
   background-color: var(--primary);
   border: none;
