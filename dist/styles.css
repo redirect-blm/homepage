@@ -55,6 +55,11 @@ header, section{
   width: 25px;
 }
 
+.bold {
+  font-weight: 900;
+  font-size: large;
+}
+
 button {
   background-color: var(--primary);
   border: none;
