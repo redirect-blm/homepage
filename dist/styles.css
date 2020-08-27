@@ -78,6 +78,15 @@ footer {
   padding-bottom: 50px;
 }
 
+.footer-nav a {
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* Media Queries - need to solve the hamburger menu covering headings*/
 /* @media(max-width: 992px){
