@@ -53,6 +53,7 @@ header, section {
   border-top-width: 8px;
   text-align: center;
   width: 200px;
+  min-height: 223px;
 }
 
 .smi-large {
