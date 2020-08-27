@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <title>Redire¢t</title>
   </head>
@@ -109,135 +110,132 @@
       </div>
     </section>
     <!-- OUT TEAM -->
+    <!-- **NOTE!!!** flickety open source license while project is still open source. When/if no longer open source, will need the developer commercial license. Please see: https://flickity.metafizzy.co/license.html  for more information-->
+    <!-- used flickety cdn for carousel -->
     <section class="row" id="our-team">
       <div class="col-md-12 d-flex justify-content-center">
         <h1>Our Team</h1>
       </div>
-      <div class="col-md-8">
-        <div class="row">
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
-          </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
-          </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
-          </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
+      <div class="col-md-12 carousel" data-flickity='{ "groupCells": true, "freeScroll": true,
+      "wrapAround": true }'>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
         </div>
-        <div class="row">
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
-          </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
-          </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
-          </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
         </div>
-        <div class="row">
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
-          <div class="card p-3 m-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="pt-3 bold">First Last</p>
-            <p>Role</p>
-            <div>
-              <img class="px-3" src="assets/img/instagram-icon.svg" alt="">
-              <img class="px-3" src="assets/img/tw-icon.svg" alt="">
-              <img class="px-3" src="assets/img/fb-icon.svg" alt="">
-            </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
         </div>
       </div>
@@ -279,5 +277,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
