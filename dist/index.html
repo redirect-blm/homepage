@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <title>Redire¢t</title>
   </head>
@@ -24,171 +25,273 @@
           <a class="nav-link" href="#how-it-works">How It Works</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about-us">Our Story</a>
+          <a class="nav-link" href="#our-story">Our Story</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#our-team">Our Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact-us">Share a Business</a>
+          <a class="nav-link" href="#share-a-business">Share a Business</a>
         </li>
       </ul>
     </div>
   </nav>
-  <main class="container">
+  <main>
+    <!-- HEADER -->
     <header class="row">
-      <div class="col-md-4">
-        <p>Want to support Black-owned businesses but don't know where to begin?</p>
-        <p>Redirect suggests Black-owned alternatives to the products on Amazon that you know and love.</p>
+      <div class="col-md-6">
+        <div>
+          <h1>
+            <p class="h1-p">Support Black Lives?</p>
+            <p class="h1-p">Redirect will help you put your money where your mouth is.</p>
+          </h1>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nihil eum quibusdam deleniti, quaerat tempore labore eius consequuntur!</p>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+          <button>Join the Movement</button>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p>Redirect your money away from big business and discover your new favorite Black-owned brands.</p>
-        <p>Coming soon to the Chrome store.</p>
-        <button>Join the Movement</button>
-      </div>
-      <div class="col-md-4">
-        <img src="assets/img/place-holder.svg" alt="">
+      <div class="col-md-6 d-flex justify-content-center">
+        <img src="assets/img/place-holder.svg" alt="image of chrome extension" class="header-img">
       </div>
     </header>
-    <section class="row" id="how-it-works">
-      <div class="col-md-4">
+    <!-- HOW IT WORKS -->
+    <div class="nav-dest" id="how-it-works"></div>
+    <section class="row clip-bottom">
+      <div class="col-md-12 d-flex justify-content-center">
         <h1>How It Works</h1>
       </div>
-      <div class="col-md-4">
-        <img src="assets/img/place-holder.svg" alt="">
+      <div class="col-md-12 d-flex justify-content-center">
+        <video class="col-md-12" controls autoplay loop>
+          <source src="assets/Redire¢t_ChromeExt_Prototype.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
-      <div class="col-md-4">
-        <div class="row">
-          <img src="assets/img/circle-one.svg" alt="" class="col-3">
-          <p class="col-9">Open the Redirect extension when shopping on Amazon and search for your favorite products.</p>
+      <div class="row p-5">
+        <div class="col-md-4 mt-3">
+          <div class="d-flex justify-content-center mb-3">
+            <img src="assets/img/circle-one.svg" alt="">
+          </div>
+          <p class="">Open the Redirect extension when shopping on Amazon and search for your favorite products.</p>
         </div>
-        <div class="row">
-          <img src="assets/img/circle-two.svg" alt="" class="col-3">
-          <p class="col-9">Redirect will recommend Black-owned businesses that sell products in the same category.</p>
+        <div class="col-md-4 mt-3">
+          <div class="d-flex justify-content-center mb-3">
+            <img src="assets/img/circle-two.svg" alt="" class="">
+          </div>
+          <p class="">Redirect will recommend Black-owned businesses that sell products in the same category.</p>
         </div>
-        <div class="row">
-          <img src="assets/img/circle-three.svg" alt="" class="col-3">
-          <p class="col-9">Click "Visit Site" to shop from a Black-owned alternative and Redirect your shopping money!</p>
+        <div class="col-md-4 mt-3">
+          <div class="d-flex justify-content-center mb-3">
+            <img src="assets/img/circle-three.svg" alt="" class="">
+          </div>
+          <p class="">Click "Visit Site" to shop from a Black-owned alternative and Redirect your shopping money!</p>
         </div>
       </div>
     </section>
-    <section class="row" id="about-us">
-      <div class="col-md-3">
-        <h1>Our $tory</h1>
+    <!-- OUR STORY -->
+    <div class="nav-dest" id="our-story"></div>
+    <section class="row clip-tb">
+      <div class="col-md-7">
+        <div>
+          <h1>
+            <p class="h1-p">Redirect started at a Black Lives Hackathon</p>
+          </h1>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nihil eum quibusdam deleniti, quaerat tempore labore eius consequuntur!</p>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+          <button>Join the Movement</button>
+        </div>
       </div>
-      <div class="col-md-3">
-        <p>Redirect went from an idea to a working prototype in just 11 days. After attending a virtual watch party and discussion of the documentary 13th, our founder was inspired to create a Chrom extension to help shoppers vote with their wallets by supporting Black-owned businesses. She began to research the idea.</p>
-      </div>
-      <div class="col-md-3">
-        <p>Just one week later, she pitched the idea at the NYC Coders Hack for Black Lives Hackathon despite not being able to code herself. Four incredibly talented developers joined her to form Team Redirect, and in less than four days, the team built a working prototype, which was selected as on of the four winning products out of 25 participating teams.</p>
-      </div>
-      <div class="col-md-3">
-        <p>Today, the team has grown to over 10 people, and we are working toward launching our extension to the Chrom store. Want to receive updates about our progress or share a Black-owned business with us? Please get in touch!</p>
-        <button>Join the Movement</button>
+      <div class="col-md-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, harum iure quae provident at ipsam amet a necessitatibus nihil rem vitae adipisci, expedita nesciunt incidunt distinctio laboriosam commodi alias?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, harum iure quae provident at ipsam amet a necessitatibus nihil rem vitae adipisci, expedita nesciunt incidunt distinctio laboriosam commodi alias?</p>
       </div>
     </section>
-    <section class="row" id="our-team">
-      <div class="col-md-4">
+    <!-- OUT TEAM -->
+    <!-- **NOTE!!!** flickety open source license while project is still open source. When/if no longer open source, will need the developer commercial license. Please see: https://flickity.metafizzy.co/license.html  for more information-->
+    <!-- used flickety cdn for carousel -->
+    <div class="nav-dest" id="our-team"></div>
+    <section class="row clip-tb">
+      <div class="col-md-12 d-flex justify-content-center">
         <h1>Our Team</h1>
       </div>
-      <div class="col-md-8">
-        <div class="row">
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
-          </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
-          </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
-          </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
+      <div class="col-md-12 carousel" data-flickity='{ "groupCells": true, "freeScroll": true,
+      "wrapAround": true }'>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
-          </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
-          </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
-          </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
-          <div class="col-6 col-lg-3">
-            <img src="assets/img/Profile.svg" alt="">
-            <p class="bold">FirstName LastName</p>
-            <p>Role at Redirect</p>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="card p-3 m-3 carousel-cell">
+          <img src="assets/img/Profile.svg" alt="">
+          <p class="pt-3 bold">First Last</p>
+          <p>Role</p>
+          <div>
+            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
           </div>
         </div>
       </div>
     </section>
-    <section class="row" id="contact-us">
-      <div class="col-md-4">
-        <h1>
-          Join the Movement!
-        </h1>
+    <!-- SHARE A BUSINESS -->
+    <div class="nav-dest" id="share-a-business"></div>
+    <section class="row clip-top">
+      <div class="col-md-7">
+        <div>
+          <h1>
+            <p class="h1-p">Help us support your community!</p>
+          </h1>
+        </div>
+        <div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nihil eum quibusdam deleniti, quaerat tempore labore eius consequuntur!</p>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+          <button>Share a Business</button>
+        </div>
       </div>
-      <div class="col-md-4">
-        <p>Join our mailing list to receive periodic updates about the progress of the project. We will never spam you or solicit your email address, ever. You'll be the first to know when we launch!</p>
-        <button>Join Our Mailing List</button>
-      </div>
-      <div class="col-md-4">
-        <p>We want to increase the reach of Black-owned businesses and connect then with new customers. If you have a business you'd like to recommend, please let use know!</p>
-        <button>Share a Black-Owned Business</button>
+      <div class="col-md-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, harum iure quae provident at ipsam amet a necessitatibus nihil rem vitae adipisci, expedita nesciunt incidunt distinctio laboriosam commodi alias?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, harum iure quae provident at ipsam amet a necessitatibus nihil rem vitae adipisci, expedita nesciunt incidunt distinctio laboriosam commodi alias?</p>
       </div>
     </section>
   </main>
   <footer class="row container-fluid mx-auto">
-    <div class="col-md-3">Links</div>
     <div class="col-md-6">
-      <p>
-        <span>Redire¢t</span>
-        your money and discover Black-owned brands.
-      </p>
+      <ul>
+        <li class="footer-nav">
+          <a href="#"><p class="bold">Redire¢t</p></a>
+        </li>
+        <li class="footer-nav">
+          <a href="#how-it-works">How It Works</a>
+        </li>
+        <li class="footer-nav">
+          <a href="#our-story">Our Story</a>
+        </li>
+        <li class="footer-nav">
+          <a href="#our-team">Our Team</a>
+        </li>
+        <li class="footer-nav">
+          <a href="#share-a-business">Share a Business</a>
+        </li>
+      </ul>
     </div>
-    <div class="col-md-3 text-right">
-      <img src="assets/img/instagram-icon.svg" alt="">
-      <img src="assets/img/tw-icon.svg" alt="">
-      <img src="assets/img/fb-icon.svg" alt="">
-      <p><a href="mailto:askredirect@gmail.com">askredirect@gmail.com</a></p>
+    <div class="col-md-6 d-flex align-items-center">
+      <div class="col-md-12 text-right">
+        <a href="#"><img class="smi-large m-3" src="assets/img/instagram-icon.svg" alt=""></a>
+        <a href="#"><img class="smi-large m-3" src="assets/img/tw-icon.svg" alt=""></a>
+        <a href="#"><img class="smi-large m-3" src="assets/img/fb-icon.svg" alt=""></a>
+        <p><a href="mailto:askredirect@gmail.com">askredirect@gmail.com</a></p>
+      </div>
     </div>
   </footer>
    <!-- Optional JavaScript -->
@@ -196,5 +299,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
