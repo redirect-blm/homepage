@@ -15,81 +15,87 @@
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
   <!-- Possibly consider max width for nav items -->
   <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
-    <a class="navbar-brand" href="#">Redire¢t</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#how-it-works">How It Works</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#our-story">Our Story</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#our-team">Our Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#share-a-business">Share a Business</a>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="navbar-brand" href="#">Redire¢t</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-story">Our Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-team">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#share-a-business">Share a Business</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
   <main>
     <!-- HEADER -->
-    <header class="row">
-      <div class="col-md-6">
-        <div>
-          <h1>
-            <p class="h1-p">Support Black Lives?</p>
-            <p class="h1-p">Redirect will help you put your money where your mouth is.</p>
-          </h1>
+    <div class="bg-style-wrapper">
+      <header class="container row mr-auto ml-auto">
+        <div class="col-md-6">
+          <div>
+            <h1>
+              <p class="h1-p">Support Black Lives?</p>
+              <p class="h1-p">Redirect will help you put your money where your mouth is.</p>
+            </h1>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nihil eum quibusdam deleniti, quaerat tempore labore eius consequuntur!</p>
+          </div>
+          <div class="d-flex justify-content-center mt-5 mb-5">
+            <button>Join the Movement</button>
+          </div>
         </div>
-        <div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nihil eum quibusdam deleniti, quaerat tempore labore eius consequuntur!</p>
+        <div class="col-md-6 d-flex justify-content-center">
+          <img src="assets/img/place-holder.svg" alt="image of chrome extension" class="header-img">
         </div>
-        <div class="d-flex justify-content-center mt-5 mb-5">
-          <button>Join the Movement</button>
-        </div>
-      </div>
-      <div class="col-md-6 d-flex justify-content-center">
-        <img src="assets/img/place-holder.svg" alt="image of chrome extension" class="header-img">
-      </div>
-    </header>
+      </header>
+    </div>
     <!-- HOW IT WORKS -->
-    <div class="nav-dest" id="how-it-works"></div>
-    <section class="row clip-bottom">
-      <div class="col-md-12 d-flex justify-content-center">
-        <h1>How It Works</h1>
-      </div>
-      <div class="col-md-12 d-flex justify-content-center">
-        <video class="col-md-12" controls autoplay loop>
-          <source src="assets/Redire¢t_ChromeExt_Prototype.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="row p-5">
-        <div class="col-md-4 mt-3">
-          <div class="d-flex justify-content-center mb-3">
-            <img src="assets/img/circle-one.svg" alt="">
-          </div>
-          <p class="">Open the Redirect extension when shopping on Amazon and search for your favorite products.</p>
+    <div id="how-it-works"></div>
+    <div class="bg-style-wrapper clip-bottom">
+      <section class="row container mr-auto ml-auto">
+        <div class="col-md-12 d-flex justify-content-center">
+          <h1>How It Works</h1>
         </div>
-        <div class="col-md-4 mt-3">
-          <div class="d-flex justify-content-center mb-3">
-            <img src="assets/img/circle-two.svg" alt="" class="">
-          </div>
-          <p class="">Redirect will recommend Black-owned businesses that sell products in the same category.</p>
+        <div class="col-md-12 d-flex justify-content-center">
+          <video class="col-md-12" controls autoplay loop>
+            <source src="assets/Redire¢t_ChromeExt_Prototype.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
-        <div class="col-md-4 mt-3">
-          <div class="d-flex justify-content-center mb-3">
-            <img src="assets/img/circle-three.svg" alt="" class="">
+        <div class="row p-5">
+          <div class="col-md-4 mt-3">
+            <div class="d-flex justify-content-center mb-3">
+              <img src="assets/img/circle-one.svg" alt="">
+            </div>
+            <p class="px-5">Open the Redirect extension when shopping on Amazon and search for your favorite products.</p>
           </div>
-          <p class="">Click "Visit Site" to shop from a Black-owned alternative and Redirect your shopping money!</p>
+          <div class="col-md-4 mt-3">
+            <div class="d-flex justify-content-center mb-3">
+              <img src="assets/img/circle-two.svg" alt="" class="">
+            </div>
+            <p class="px-5">Redirect will recommend Black-owned businesses that sell products in the same category.</p>
+          </div>
+          <div class="col-md-4 mt-3">
+            <div class="d-flex justify-content-center mb-3">
+              <img src="assets/img/circle-three.svg" alt="" class="">
+            </div>
+            <p class="px-5">Click "Visit Site" to shop from a Black-owned alternative and Redirect your shopping money!</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <!-- OUR STORY -->
     <div class="nav-dest" id="our-story"></div>
     <section class="row clip-tb">
@@ -114,156 +120,160 @@
     <!-- OUT TEAM -->
     <!-- **NOTE!!!** flickety open source license while project is still open source. When/if no longer open source, will need the developer commercial license. Please see: https://flickity.metafizzy.co/license.html  for more information-->
     <!-- used flickety cdn for carousel -->
-    <div class="nav-dest" id="our-team"></div>
-    <section class="row clip-tb">
-      <div class="col-md-12 d-flex justify-content-center">
-        <h1>Our Team</h1>
-      </div>
-      <div class="col-md-12 carousel" data-flickity='{ "groupCells": true, "freeScroll": true,
-      "wrapAround": true }'>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+    <div id="our-team"></div>
+    <div class="bg-style-wrapper clip-tb">
+      <section class="container row mr-auto ml-auto">
+        <div class="col-md-12 d-flex justify-content-center">
+          <h1>Our Team</h1>
+        </div>
+        <div class="col-md-12 carousel" data-flickity='{ "groupCells": true, "freeScroll": true,
+        "wrapAround": true }'>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="card p-3 m-3 carousel-cell">
+            <img src="assets/img/Profile.svg" alt="">
+            <p class="pt-3 bold">First Last</p>
+            <p>Role</p>
+            <div>
+              <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
+              <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
+            </div>
           </div>
         </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="card p-3 m-3 carousel-cell">
-          <img src="assets/img/Profile.svg" alt="">
-          <p class="pt-3 bold">First Last</p>
-          <p>Role</p>
-          <div>
-            <a href="#"><img class="px-3" src="assets/img/instagram-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/tw-icon.svg" alt=""></a>
-            <a href="#"><img class="px-3" src="assets/img/fb-icon.svg" alt=""></a>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <!-- SHARE A BUSINESS -->
     <div class="nav-dest" id="share-a-business"></div>
-    <section class="row clip-top">
-      <div class="col-md-7">
-        <div>
-          <h1>
-            <p class="h1-p">Help us support your community!</p>
-          </h1>
+    <div class="bg-style-wrapper clip-top">
+      <section class="row container mr-auto ml-auto">
+        <div class="col-md-7">
+          <div>
+            <h1>
+              <p class="h1-p">Help us support your community!</p>
+            </h1>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nihil eum quibusdam deleniti, quaerat tempore labore eius consequuntur!</p>
+          </div>
+          <div class="d-flex justify-content-center mt-5 mb-5">
+            <button>Share a Business</button>
+          </div>
         </div>
-        <div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nihil eum quibusdam deleniti, quaerat tempore labore eius consequuntur!</p>
+        <div class="col-md-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, harum iure quae provident at ipsam amet a necessitatibus nihil rem vitae adipisci, expedita nesciunt incidunt distinctio laboriosam commodi alias?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, harum iure quae provident at ipsam amet a necessitatibus nihil rem vitae adipisci, expedita nesciunt incidunt distinctio laboriosam commodi alias?</p>
         </div>
-        <div class="d-flex justify-content-center mt-5 mb-5">
-          <button>Share a Business</button>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, harum iure quae provident at ipsam amet a necessitatibus nihil rem vitae adipisci, expedita nesciunt incidunt distinctio laboriosam commodi alias?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur, harum iure quae provident at ipsam amet a necessitatibus nihil rem vitae adipisci, expedita nesciunt incidunt distinctio laboriosam commodi alias?</p>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
   <footer class="row container-fluid mx-auto">
     <div class="col-md-6">
