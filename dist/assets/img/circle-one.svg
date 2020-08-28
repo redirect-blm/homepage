@@ -1,15 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 100 100">
   <defs>
     <style>
       .cls-1 {
-        fill: #fff;
-        stroke: #707070;
+        fill: #9cc5a1;
+        <!-- stroke: #707070; -->
       }
 
       .cls-2 {
-        fill: #707070;
-        font-size: 40px;
-        font-family: HelveticaNeue, Helvetica Neue;
+        fill: white;
+        font-size: 45px;
+        font-weight: bold;
+        font-family: Lato, HelveticaNeue, Helvetica Neue;
       }
 
       .cls-3 {

@@ -6,8 +6,24 @@
 
 :root {  
 /* Redirect Color Scheme */
---primary: #2ECA7F;
---dark-gray: #555555;
+--dark: #1f2421;
+--dark-blue: #216869;
+--green: #49a078;
+--light-green: #9cc5a1;
+--light-gray: #dce1de;
+}
+
+body {
+  position: relative;
+  font-family: "Lato","Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  color: var(--dark);
+}
+
+.green-bg {
+  background-color: var(--green)!important;
+  color: white;
 }
 
 .row {
@@ -21,40 +37,88 @@
 }
 
 nav {
-  background-color: var(--primary);
+  background-color: white;
 }
 
-body {
-  position: relative;
-  font-family: "Lato","Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
-  /* background-color: var(--dark-gray); */
+.nav-item a, .nav-item a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
+
+/* MODIFIED BOOTSTRAP : NAV : START*/
+.navbar-light .navbar-nav .nav-link {
+  color: var(--dark-blue);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: var(--dark-blue);
+}
+
+/* MODIFIED BOOTSTRAP : NAV : END */
+
 
 .bg-style-wrapper{
-  background-color: lightgrey;
+  background-color: white;
 }
 
 header, section {
   padding: 100px 0px;
 }
 
-.h1-p {
+h1, h2 {
   margin-bottom: 40px;
+}
+
+.h1-p {
+  font-weight: bold;
 }
 
 .header-img {
   height: 500px;
 }
 
+#how-it-works, #our-team {
+  position: relative;
+}
+
+.clip-heading{
+  padding: 0px 5%;
+  border: #1f2421 solid 1px;
+  color: var(--dark-blue);
+  background-color: white;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.how-p {
+  border: #1f2421 solid 1px;
+  padding: 8px;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
 .card {
-  border-top-color: #2ECA7F;
+  border-top-color: var(--light-green);
   border-top-width: 8px;
   text-align: center;
   width: 200px;
   min-height: 223px;
 }
+
+/* MODIFIED FLICKITY : CARD BUTTON : START */
+
+.flickity-button {
+  color: var(--dark-blue)!important;
+}
+
+/* MODIFIED FLICKITY : CARD BUTTON : END */
 
 .smi-large {
   height: 25px;
@@ -67,32 +131,43 @@ header, section {
 }
 
 button {
-  background-color: var(--primary);
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
+  background-color: white;
+  border: solid var(--dark-blue) 2px;
+  border-radius: 5px;
+  padding: 5px 15px;
 }
 
 footer {
-  background-color: var(--primary);
+  background-color: white;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .footer-nav a {
   text-decoration: none;
+  color: var(--dark);
 }
 
-.clip-tb {
+.footer-nav a:hover {
+  text-decoration: underline;
+  color: var(--green);
+}
+/* .clip-tb {
   clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
 }
 
 .clip-top {
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%);
-}
+} */
 
 .clip-bottom {
-  clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0);
+  /* clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0); */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 6vw),
+    0 100%
+  );
 }
 
 .bg-style {
@@ -106,9 +181,7 @@ ul {
   padding: 0;
 }
 
-/* Media Queries - need to solve the hamburger menu covering headings*/
-/* @media(max-width: 992px){
-  section {
-    padding-top: 200px;
-  }
+/* need this to add slant */
+/* .top-half {
+  height: 10rem;
 } */
