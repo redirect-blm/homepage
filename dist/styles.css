@@ -18,10 +18,12 @@ body {
   font-family: "Lato","Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
+  color: var(--dark);
 }
 
 .green-bg {
   background-color: var(--green)!important;
+  color: white;
 }
 
 .row {
@@ -66,10 +68,6 @@ header, section {
   padding: 100px 0px;
 }
 
-header {
-  color: white;
-}
-
 h1, h2 {
   margin-bottom: 40px;
 }
@@ -86,7 +84,7 @@ h1, h2 {
   position: relative;
 }
 
-#how-it-works h1, #our-team h1{
+.clip-heading{
   padding: 0px 5%;
   border: #1f2421 solid 1px;
   color: var(--dark-blue);
@@ -96,14 +94,30 @@ h1, h2 {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  z-index: 999;
+}
+
+.how-p {
+  border: #1f2421 solid 1px;
+  padding: 8px;
+  max-width: 150px;
+  margin: 0 auto;
 }
 
 .card {
-  border-top-color: #2ECA7F;
+  border-top-color: var(--light-green);
   border-top-width: 8px;
   text-align: center;
   width: 200px;
 }
+
+/* MODIFIED FLICKITY : CARD BUTTON : START */
+
+.flickity-button {
+  color: var(--dark-blue)!important;
+}
+
+/* MODIFIED FLICKITY : CARD BUTTON : END */
 
 .smi-large {
   height: 25px;
@@ -123,15 +137,20 @@ button {
 }
 
 footer {
-  background-color: var(--primary);
+  background-color: white;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .footer-nav a {
   text-decoration: none;
+  color: var(--dark);
 }
 
+.footer-nav a:hover {
+  text-decoration: underline;
+  color: var(--green);
+}
 /* .clip-tb {
   clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
 }
@@ -161,13 +180,7 @@ ul {
   padding: 0;
 }
 
-.top-half {
+/* need this to add slant */
+/* .top-half {
   height: 10rem;
-}
-
-/* Media Queries - need to solve the hamburger menu covering headings*/
-/* @media(max-width: 992px){
-  section {
-    padding-top: 200px;
-  }
 } */
