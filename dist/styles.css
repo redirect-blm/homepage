@@ -20,6 +20,10 @@ body {
     "Noto Color Emoji";
 }
 
+.green-bg {
+  background-color: var(--green)!important;
+}
+
 .row {
   margin: 0;
 }
@@ -50,23 +54,48 @@ nav {
 .navbar-dark .navbar-nav .nav-link.active {
   color: var(--dark-blue);
 }
+
 /* MODIFIED BOOTSTRAP : NAV : END */
 
 
 .bg-style-wrapper{
-  background-color: var(--light-gray);
+  background-color: white;
 }
 
 header, section {
   padding: 100px 0px;
 }
 
-.h1-p {
+header {
+  color: white;
+}
+
+h1, h2 {
   margin-bottom: 40px;
+}
+
+.h1-p {
+  font-weight: bold;
 }
 
 .header-img {
   height: 500px;
+}
+
+#how-it-works, #our-team {
+  position: relative;
+}
+
+#how-it-works h1, #our-team h1{
+  padding: 0px 5%;
+  border: #1f2421 solid 1px;
+  color: var(--dark-blue);
+  background-color: white;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .card {
@@ -87,10 +116,10 @@ header, section {
 }
 
 button {
-  background-color: var(--primary);
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
+  background-color: white;
+  border: solid var(--dark-blue) 2px;
+  border-radius: 5px;
+  padding: 5px 15px;
 }
 
 footer {
@@ -103,16 +132,22 @@ footer {
   text-decoration: none;
 }
 
-.clip-tb {
+/* .clip-tb {
   clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
 }
 
 .clip-top {
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%);
-}
+} */
 
 .clip-bottom {
-  clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0);
+  /* clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 0); */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 6vw),
+    0 100%
+  );
 }
 
 .bg-style {
@@ -124,6 +159,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.top-half {
+  height: 10rem;
 }
 
 /* Media Queries - need to solve the hamburger menu covering headings*/
