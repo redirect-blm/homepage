@@ -112,6 +112,24 @@ h1, h2 {
   margin: 0 auto;
 }
 
+.circle {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: var(--light-green);
+  text-align: center;
+}
+
+.number {
+  color: white;
+  position: absolute;
+  top: 11px;
+  right: 26px;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
 .card {
   border-top-color: var(--light-green);
   border-top-width: 8px;
