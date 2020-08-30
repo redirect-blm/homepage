@@ -81,6 +81,14 @@ h1, h2 {
 }
 
 #how-it-works, #our-team {
+  height: 100px;
+}
+
+#our-story, #help-us {
+  height: 20px;
+}
+
+.boxed-heading {
   position: relative;
 }
 
@@ -135,6 +143,11 @@ button {
   border: solid var(--dark-blue) 2px;
   border-radius: 5px;
   padding: 5px 15px;
+  transition: transform 0.5s;
+}
+
+button:hover {
+  transform: scale(1.1, 1.1);
 }
 
 footer {
